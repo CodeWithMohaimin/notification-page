@@ -11,13 +11,13 @@
     min-height: 100vh;
     background-color: hsl(210, 60%, 98%);
     display: flex;
-    padding: 1rem;
+    padding: .4rem;
 }
 .container{
     max-width: 800px;
     width: 100%;
     margin:auto;
-    padding: 2rem 1rem;
+    padding: 2rem .5rem;
     border-radius: 1.25rem;
     background-color: #fff;
 }
@@ -37,13 +37,13 @@
     gap: .5rem;
 }
 .notification_btn{
-    padding: 5px 15px;
+    padding: 10px 15px;
     border: none;
-    background-color: hsl(219, 85%, 26%);
+    background-color: hsl(10, 99%, 54%);
     color:hsl(0, 0%, 100%);
     font-size: 1rem;
     font-weight: 600;
-    border-radius: .5rem;
+    border-radius: 100%;
     cursor: pointer;
 }
 .notification_btn:hover{
