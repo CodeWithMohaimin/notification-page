@@ -25,6 +25,7 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
+    margin-bottom: 4rem;
 }
 .bar h1{
     font-size: 1.2rem;
@@ -43,15 +44,25 @@
     font-size: 1rem;
     font-weight: 600;
     border-radius: .5rem;
+    cursor: pointer;
+}
+.notification_btn:hover{
+    background-color: hsl(219, 54%, 50%);
 }
 .all_read_text p{
     font-size: 1.1rem;
     text-transform: capitalize;
     color: hsl(219, 12%, 42%);
+    cursor: pointer;
 }
 /* notification components  */
 .toggle_notification{
     margin-top: 2rem;
+    position: relative;
+    display: none;
+}
+.active{
+    display: inline;
 }
 .unread_notification{
     background-color: hsl(211, 68%, 94%);
@@ -61,6 +72,7 @@
     padding: .5rem 1rem;
     border-radius: 1rem;
     margin: 1rem 0;
+    cursor: pointer;
 }
 .notification_image img{
     width: 60px;
@@ -94,22 +106,27 @@
 }
 
 
-
-
-
-
-
-
-
-
-i{
-    color: hsl(1, 90%, 64%);
-    color: hsl(219, 85%, 26%);
-    color: hsl(0, 0%, 100%);
-    color: hsl(210, 60%, 98%);
-    color: hsl(211, 68%, 94%);
-    color: hsl(205, 33%, 90%);
-    color: hsl(219, 14%, 63%);
-    color: hsl(219, 12%, 42%);
-    color: hsl(224, 21%, 14%);
+/* third notification section  */
+.read_notification{
+    background-color: hsl(0, 0%, 100%);
+    display: flex;
+    align-items: flex-start;
+    gap: 1.25rem;
+    padding: .5rem 1rem;
+    border-radius: 1rem;
+    cursor: pointer;
+    margin: 1rem 0;
 }
+.expand_comment{
+    border: 1px solid hsl(219, 19%, 83%);
+    padding: 1rem;
+    margin-top: .5rem;
+    margin-bottom: 2rem;
+    border-radius: .4rem;
+}
+.expand_comment p{
+    font-size: 1.1rem;
+    color: hsl(219, 14%, 63%);
+}
+
+
