@@ -2,7 +2,7 @@
 
 # Live Link [Click Here](https://mohaimin-notification-page.netlify.app/)
 
-# This Project is basically for Frontend Mentor challenge project. Where I create A notification-page for Frontend mentor io with Html, CSS and Javascript. It's great project for learning CSS Flex box CSS responsive design patterns and CSS media query and JavaScript Dom manipulations 
+### This Project is basically for Frontend Mentor challenge project. Where I create A notification-page for Frontend mentor io with Html, CSS and Javascript. It's great project for learning CSS Flex box CSS responsive design patterns and CSS media query and JavaScript Dom manipulations 
 
 ![Design preview for the Notifications page coding challenge](./design/desktop-preview.jpg)
 
